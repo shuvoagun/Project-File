@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background-color: black;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    top: 4%;
+    margin-top: 0px;
+    margin-left: 420px;
+    margin-right: 190px;
+    padding: 14px;
+    font-size: 20px;
+    border: 2px solid #3c3c3c;
+    backdrop-filter: blur(20px);
+    gap: 15px;
+    position: fixed;
+    align-items: center;
+     
+}
+
+.navbar a{
+    color:#EDD6B6;
+    font-size: smaller;
+}
+div h1{
+    top: 75%;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #EDD6B6;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 90px;
+    text-align: center;
+} 
+div h3{
+    top: 780px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #EDD6B6;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 32px;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 10px;
+    text-align: center;
+    
+} 
+.contact{
+    background-color:#EDD6B6;
+    border: 6px ;
+    font-size: large;
+    padding: 8px;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+@keyframes slide{
+    from{
+        transform: translatex(50%);
+        transition: 20%;
+    }
+    to{
+        transform: translatex(-100%);
+        transition: 20%;
+    }
+} 
+.logos{ 
+   overflow: hidden;
+   background-color: black;
+}
+.logos-slide{
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+.logos-slide img{
+    margin: 340px 0 0 ;
+    height: 35px;    
+}
+
+.card {
+    display:inline-block;
+    flex-direction: row; 
+    border: 2px solid #565656;
+    height: 220px;
+    width: 300px;
+    margin: 60px;
+    padding: 10px;
+    backdrop-filter: blur(10%);
+}
+.intro p {
+    color: #EDD6B6;
+    font-size: large;
+    padding: 10px;
+    margin: 0;
+}
+
+.intro .number {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.intro .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.intro .description {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Responsive */
+/* @media screen and (max-width: 768px) {
+    .card {
+        width: 100%; 
+        height: auto; 
+        margin: 20px 0; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 80%;
+        height: 300px;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .movie-screen {
+        height: 40vh;
+        background-color: #222;
+    }
+} */
+
+
+@media screen and (orientation: portrait) {
+    .movie-screen {
+        height: 60vh;
+        background-color: #000;
+    }
+}
+
+
+
+
+
+
+
+
+
+
